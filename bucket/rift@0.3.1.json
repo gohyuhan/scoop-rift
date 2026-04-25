@@ -1,6 +1,6 @@
 {
   "version": "0.3.1",
-  "description": "A cli tool to simplify path navigation",
+  "description": "A cli tool to simplify path navigation (v0.3.1)",
   "homepage": "https://github.com/gohyuhan/rift",
   "license": "MIT",
   "architecture": {
@@ -13,16 +13,5 @@
       "hash": "46b89919ad579694ad41d3935fd9128e1e5a0cf8a627c28d455fd2199f5b5237"
     }
   },
-  "bin": "rift.exe",
-  "checkver": "github",
-  "autoupdate": {
-    "architecture": {
-      "64bit": {
-        "url": "https://github.com/gohyuhan/rift/releases/download/v$version/rift-v$version-windows-amd64.zip"
-      },
-      "arm64": {
-        "url": "https://github.com/gohyuhan/rift/releases/download/v$version/rift-v$version-windows-arm64.zip"
-      }
-    }
-  }
+  "bin": "rift.exe"
 }
